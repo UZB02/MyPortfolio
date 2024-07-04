@@ -4,7 +4,7 @@ import Page1 from "../components/page1.vue";
 </script>
 
 <template>
-  <header class="sticky top-0">
+  <header class="sticky top-0 z-50">
         <Nav></Nav>
   </header>
   <main>

@@ -10,7 +10,7 @@
         class="flex items-center space-x-3 rtl:space-x-reverse"
       >
         <img
-          src="../img/photo_2023-04-19_22-41-36.jpg"
+          src="../img/logo.jpg"
           class="md:h-10 h-8 rounded-full"
           alt="Logo"
         />
