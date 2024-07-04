@@ -47,7 +47,7 @@
     </button>
       </div>
        <div
-      class="items-center transition ease-in-out justify-between w-full md:flex md:w-auto md:order-1"
+      class="items-center  transition ease-in-out justify-between w-full md:flex md:w-auto md:order-1"
       :class="{ hidden: !menu }"
       id="navbar-sticky"
     >
