@@ -1,6 +1,6 @@
 <template>
-  <section class="p-10">
-    <div class="container  relative w-full flex flex-col md:flex-row gap-5">
+  <section class="py-10 ">
+    <div class="container relative w-full flex flex-col md:flex-row gap-5">
       <div
         class="left flex flex-col md:flex-row w-full md:w-1/2 items-center justify-center gap-2"
       >
