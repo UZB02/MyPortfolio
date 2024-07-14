@@ -1,6 +1,6 @@
 <script setup>
 // import Nav from "../components/Nav.vue";
-import Page1 from "../components/page1.vue";
+import A1 from "../views/A1+/Main.vue";
 
 import { ref } from "vue";
 
@@ -12,6 +12,6 @@ const sideBar = ref(false);
         <!-- <Nav></Nav> -->
   </header>
 <main>
-  <Page1></Page1>
+  <A1></A1>
 </main>
 </template>
