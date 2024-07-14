@@ -65,5 +65,17 @@
     </div>
   </section>
 </template>
-<script setup></script>
+<script setup>
+// import en_uz from "../en_uz.json";
+// import { ref } from "vue";
+// console.log(en_uz[0]);
+// console.log(Object.keys(en_uz[0]));
+// console.log(Object.values(en_uz[0]));
+
+// const renderIndex=Math.floor(Math.random() * Object.keys(en_uz[0]).length);
+// console.log(renderIndex);
+
+// const render = ref(en_uz[0][Object.keys(en_uz[0])[renderIndex]]);
+// console.log(render.value);
+</script>
 <style scoped></style>
