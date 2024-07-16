@@ -1,18 +1,108 @@
 [
-    {
-           "bag":"sumka",
-    "board": "doska",
-    "board rubber": "doska tozalagich",
-    "chair": "o'rindiq",
-    "book": "kitob",
-    "computer": "kompyuter",
-    "desk": "parta",
-    "dictionary": "lug'at",
-    "door": "eshik",
-    "pen": "ruchka",
-    "pencil": "qalam",
-    "poster": "plakat",
-    "ruler": "chizg'ich",
-    "window": "oyna"
+  {
+    "Satart_Unit": {
+      "name": "Starter Unit",
+      "path": "/a1+/starter_unit/classroom",
+      "img": "../img/a1+/starter_unit.jpg",
+      "description": {
+        "classroom": {
+          "bag": "sumka",
+          "board": "doska",
+          "board rubber": "doska tozalagich",
+          "chair": "stul",
+          "book": "kitob",
+          "computer": "kompyuter",
+          "desk": "parta",
+          "dictionary": "lug'at",
+          "door": "eshik",
+          "pen": "ruchka",
+          "pencil": "qalam",
+          "poster": "e'lon, afisha",
+          "ruler": "chizg'ich",
+          "window": "oyna"
+        },
+        "colors": {
+          "black": "qora",
+          "blue": "ko'k",
+          "brown": "jigarrang",
+          "green": "yashil",
+          "grey": "kulrang",
+          "orange": "zarg'aldoq, apelsin",
+          "pink": "pushti",
+          "purple": "to'q qizil , qirmizi",
+          "red": "qizil",
+          "white": "oq",
+          "yellow": "sariq"
+        },
+        "numbers_cardinal": {
+          "one": "bir (1)",
+          "two": "ikki (2)",
+          "three": "uch (3)",
+          "four": "to'rt (4)",
+          "five": "besh (5)",
+          "six": "olti (6)",
+          "seven": "yetti (7)",
+          "eight": "sakkiz (8)",
+          "nine": "to'qqiz (9)",
+          "ten": "o'n (10)",
+          "eleven": "o'n bir (11)",
+          "twelve": "o'n ikki (12)",
+          "thirteen": "o'n uch (13)",
+          "fourteen": "o'n to'rt (14)",
+          "fifteen": "o'n besh (15)",
+          "sixteen": "o'n olti (16)",
+          "seventeen": "o'n yetti (17)",
+          "eighteen": "o'n sakkiz (18)",
+          "nineteen": "o'n to'qqiz (19)",
+          "twenty": "yigirma (20)",
+          "twenty one": "yigirma bir (21)",
+          "thirty": "o'ttiz (30)",
+          "forty": "qirq (40)",
+          "fifty": "ellik (50)"      
+        }
+      }
+    },
+    "Unit1": {
+      "name": "Unit 1",
+      "path": "/a1+/starter_unit/classroom",
+      "img": "../img/a1+/starter_unit.jpg",
+      "description": {
+        "bag": "sumka",
+        "board": "doska",
+        "board rubber": "doska tozalagich",
+        "chair": "o'rindiq",
+        "book": "kitob",
+        "computer": "kompyuter",
+        "desk": "parta",
+        "dictionary": "lug'at",
+        "door": "eshik",
+        "pen": "ruchka",
+        "pencil": "qalam",
+        "poster": "plakat",
+        "ruler": "chizg'ich",
+        "window": "oyna"
+      }
+    },
+    "Unit2": {
+      "name": "Unit 2",
+      "path": "/a1+/starter_unit/classroom",
+      "img": "../img/a1+/starter_unit.jpg",
+      "description": {
+        "bag": "sumka",
+        "board": "doska",
+        "board rubber": "doska tozalagich",
+        "chair": "o'rindiq",
+        "book": "kitob",
+        "computer": "kompyuter",
+        "desk": "parta",
+        "dictionary": "lug'at",
+        "door": "eshik",
+        "pen": "ruchka",
+        "pencil": "qalam",
+        "poster": "plakat",
+        "ruler": "chizg'ich",
+        "window": "oyna"
+      }
     }
+  }
 ]

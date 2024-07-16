@@ -16,7 +16,7 @@
         <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search dictionary" required />
     </div>
 </form>
-                        <button @click="router.push('/a1+/starter_unit/classroom/test')" type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Start Test</button>
+                        <button @click="router.push('/a1+/starter_unit/colors/test')" type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Start Test</button>
                     </span>
                 </div>
             </header>
@@ -39,7 +39,7 @@ import router from '@/router';
 import en_uz from "../../../../json/A1+/StarterUnit/Classroom/en_uz.json";
 import { ref,reactive } from 'vue';
 
-const data=ref(en_uz[0].Satart_Unit.description.classroom);
+const data=ref(en_uz[0].Satart_Unit.description.colors);
 console.log(data.value);
 // console.log(Keys);
 
