@@ -1,12 +1,12 @@
 <template>
         <section>
             <div class="container flex flex-wrap gap-5">
-<div v-for="(item,index) in data" :key="index" @click="router.push(`${item.path}`)" class="card cursor-pointer w-full sm:w-[30%] h-48  flex flex-col items-end sm:mb-7 mb-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div v-for="(item,index) in data" :key="index" @click="router.push(`${item.path}`)" class="card cursor-pointer w-full sm:w-[30%] h-48  flex flex-col items-end sm:mb-7 mb-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <span class="w-full h-full">
         <img :src="item.img" alt="" class="w-full transition ease-in-out hover:scale-95 h-full object-cover rounded-lg">
     </span>
     <span class="bg-gray-100 px-3 w-full rounded-lg">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ item.name }}</h5>
+        <h5 class="mb-2 text-2xl font-bold whitespace-nowrap overflow-hidden text-overflow-ellipsis tracking-tight text-gray-900 dark:text-white">{{ item.name }}</h5>
     </span>
 </div>
 
@@ -37,6 +37,21 @@ const data=[
         name:"Numbers – ordinal",
         path:"/a1+/starter_unit/numbers_ordinal",
         img:"https://avatars.mds.yandex.net/i?id=0934288e47ff33115c934f446c5b9db149906c80-13620566-images-thumbs&n=13"
+    },
+      {
+        name:"Days",
+        path:"/a1+/starter_unit/days",
+        img:"https://avatars.mds.yandex.net/i?id=8504bf3a37e58cb3bc3fd15d981e17fc4df90fb8fa3bd5cd-12618389-images-thumbs&n=13"
+    },
+      {
+        name:"Months",
+        path:"/a1+/starter_unit/months",
+        img:"https://avatars.mds.yandex.net/i?id=3dfff3709c155aab0274d0aea3bf0a6ac4a0cc1956e2e047-5220726-images-thumbs&n=13"
+    },
+      {
+        name:"Classroom Expressions and Instructions",
+        path:"/a1+/starter_unit/classroom_expressions_and_instructions",
+        img:"https://avatars.mds.yandex.net/i?id=877b01866e8fa84d34bee78c50dee37b8bbad869-5232396-images-thumbs&n=13"
     },
 ];
 </script>

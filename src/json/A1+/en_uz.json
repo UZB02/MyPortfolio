@@ -85,6 +85,46 @@
           "thirtieth": "o'ttizinchi",
           "fortieth": "qirqinchi",
           "fiftieth": "elliginchi"      
+        },
+        "days": {
+          "monday": "dushanba",     
+          "tuesday": "seshanba",
+          "wednesday": "chorshanba",
+          "thursday": "payshanba",
+          "friday": "juma",
+          "saturday": "shanba",
+          "sunday": "yakshanba"     
+        },
+        "months": {
+          "january": "Yanvar",     
+          "february": "Fevral",
+          "march": "Mart",
+          "april": "Aprel",
+          "may": "May",
+          "june": "Iyun",
+          "july": "Iyul",
+          "august": "Avgust",
+          "september": "Sentyabr",
+          "october": "Oktyabr",
+          "november": "Noyabr",
+          "december": "Dekabr"
+        },
+        "classroom_expressions_and_instructions": {
+          "answer": "javob bermoq",     
+          "ask": "savol bermoq, so'ramoq",
+          "check": "tekshirmoq",
+          "choose": "tanlamoq",
+          "complete": "to'ldirmoq",
+          "group": "guruh, tabaqa",
+          "listen": "tinglamoq",
+          "look": "qaramoq, boqmoq",
+          "partner": "turmush o'rtoq, sherik",
+          "read": "o'qimoq",
+          "repeat": "takrorlamoq, qaytarmoq",
+          "say": "aytmoq, demoq",
+          "text": "matn",
+          "work": "mehnat qilmoq, ishlamoq",
+          "write": "yozmoq"
         }
       }
     },

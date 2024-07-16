@@ -37,12 +37,32 @@ const router = createRouter({
     {
       path: "/a1+/starter_unit/numbers_cardinal",
       name: "A1+ Starter Unit Numbers Cordional",
-      component: () => import("../views/A1+/StarterUnit/NumbrsCordional/Main.vue"),
+      component: () =>
+        import("../views/A1+/StarterUnit/NumbrsCordional/Main.vue"),
     },
     {
       path: "/a1+/starter_unit/numbers_ordinal",
       name: "A1+ Starter Unit Numbers Ordinal",
-      component: () => import("../views/A1+/StarterUnit/NumbersOrdinal/Main.vue"),
+      component: () =>
+        import("../views/A1+/StarterUnit/NumbersOrdinal/Main.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/days",
+      name: "A1+ Starter Unit Days",
+      component: () => import("../views/A1+/StarterUnit/Days/Main.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/months",
+      name: "A1+ Starter Unit Days",
+      component: () => import("../views/A1+/StarterUnit/Months/Main.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/classroom_expressions_and_instructions",
+      name: "A1+ Starter Unit Classroom Expressions and Instructions",
+      component: () =>
+        import(
+          "../views/A1+/StarterUnit/Classroom_Expressions_and_Instructions/Main.vue"
+        ),
     },
     {
       path: "/a1+/starter_unit/classroom/test",
@@ -65,6 +85,21 @@ const router = createRouter({
       name: "A1+ Starter Unit Numbrs Ordinal Test",
       component: () =>
         import("../views/A1+/StarterUnit/NumbersOrdinal/test.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/days/test",
+      name: "A1+ Starter Unit Days Test",
+      component: () => import("../views/A1+/StarterUnit/Days/test.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/months/test",
+      name: "A1+ Starter Unit Days Test",
+      component: () => import("../views/A1+/StarterUnit/Months/test.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/classroom_expressions_and_instructions/test",
+      name: "A1+ Starter Unit Classroom Expressions and Instructions Test",
+      component: () => import("../views/A1+/StarterUnit/Classroom_Expressions_and_Instructions/test.vue"),
     },
   ],
 });
