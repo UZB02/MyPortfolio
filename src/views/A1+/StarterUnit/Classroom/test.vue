@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container flex flex-col gap-5">
-      <span class="h-[50vh] bg-gray-100 rounded-lg flex items-center justify-center">
+      <span class="h-[150px] sm:h-[50vh] bg-gray-100 rounded-lg flex items-center justify-center">
         <h1 class="font-sans font-bold text-3xl">{{ currentWord }}</h1>
       </span>
       <span class="flex items-center justify-center sm:flex-row flex-col gap-3">
