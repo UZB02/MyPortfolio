@@ -88,8 +88,9 @@ const router = createRouter({
     },
     {
       path: "/a1+/starter_unit/days/test",
-      name: "A1+ Starter Unit Days Test",
-      component: () => import("../views/A1+/StarterUnit/Days/test.vue"),
+      name: "A1+ Starter Unit days Test",
+      component: () =>
+        import("../views/A1+/StarterUnit/Days/test.vue"),
     },
     {
       path: "/a1+/starter_unit/months/test",
