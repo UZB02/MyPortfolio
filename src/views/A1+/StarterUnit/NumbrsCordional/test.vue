@@ -17,7 +17,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import en_uz from '../../../../json/A1+/StarterUnit/Classroom/en_uz.json';
+import en_uz from '../../../../json/A1+/en_uz.json';
 import Swal from 'sweetalert2';
 
 const data = ref(en_uz[0].Satart_Unit.description.numbers_cardinal);
@@ -35,7 +35,7 @@ const checkWord = () => {
    Swal.fire({
   position: "top-center",
   icon: "success",
-  title: "Your work has been saved",
+  title: "Correct answer",
   showConfirmButton: false,
   timer: 1500
 });

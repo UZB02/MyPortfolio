@@ -40,6 +40,11 @@ const router = createRouter({
       component: () => import("../views/A1+/StarterUnit/NumbrsCordional/Main.vue"),
     },
     {
+      path: "/a1+/starter_unit/numbers_ordinal",
+      name: "A1+ Starter Unit Numbers Ordinal",
+      component: () => import("../views/A1+/StarterUnit/NumbersOrdinal/Main.vue"),
+    },
+    {
       path: "/a1+/starter_unit/classroom/test",
       name: "A1+ Starter Unit Classroom Test",
       component: () => import("../views/A1+/StarterUnit/Classroom/test.vue"),
@@ -54,6 +59,12 @@ const router = createRouter({
       name: "A1+ Starter Unit Numbrs Cordional Test",
       component: () =>
         import("../views/A1+/StarterUnit/NumbrsCordional/test.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/numbers_ordinal/test",
+      name: "A1+ Starter Unit Numbrs Ordinal Test",
+      component: () =>
+        import("../views/A1+/StarterUnit/NumbersOrdinal/test.vue"),
     },
   ],
 });

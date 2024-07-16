@@ -59,6 +59,32 @@
           "thirty": "o'ttiz (30)",
           "forty": "qirq (40)",
           "fifty": "ellik (50)"      
+        },
+        "numbers_ordinal": {
+          "first": "birinchi",
+          "second": "ikkinchi",
+          "third": "uchinchi",
+          "fourth": "to'rtinchi",
+          "fifth": "beshinchi",
+          "sixth": "oltinchi",
+          "seventh": "yettinchi",
+          "eighth": "sakkizinchi",
+          "ninth": "to'qqizinchi",
+          "tenth": "o'ninchi",
+          "eleventh": "o'n birinchi",
+          "twelfth": "o'n ikkinchi",
+          "thirteenth": "o'n uchinchi",
+          "fourteenth": "o'n to'rtinchi",
+          "fifteenth": "o'n beshinchi",
+          "sixteenth": "o'n oltinchi",
+          "seventeenth": "o'n yettinchi",
+          "eighteenth": "o'n sakkizinchi",
+          "nineteenth": "o'n to'qizinchi",
+          "twenty": "yigirma",
+          "twenty-first": "yigirma birinchi",
+          "thirtieth": "o'ttizinchi",
+          "fortieth": "qirqinchi",
+          "fiftieth": "elliginchi"      
         }
       }
     },

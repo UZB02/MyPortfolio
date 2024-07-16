@@ -36,7 +36,7 @@
 </template>
 <script setup>
 import router from '@/router';
-import en_uz from "../../../../json/A1+/StarterUnit/Classroom/en_uz.json";
+import en_uz from "../../../../json/A1+/en_uz.json";
 import { ref,reactive } from 'vue';
 
 const data=ref(en_uz[0].Satart_Unit.description.colors);

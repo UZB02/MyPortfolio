@@ -1,9 +1,9 @@
 <template>
         <section>
             <div class="container flex flex-wrap gap-5">
-<div v-for="(item,index) in data" :key="index" @click="router.push(`${item.path}`)" class="card cursor-pointer w-full sm:w-[30%] h-48  flex flex-col items-end mb-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div v-for="(item,index) in data" :key="index" @click="router.push(`${item.path}`)" class="card cursor-pointer w-full sm:w-[30%] h-48  flex flex-col items-end sm:mb-7 mb-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <span class="w-full h-full">
-        <img :src="item.img" alt="" class="w-full h-full object-cover rounded-lg">
+        <img :src="item.img" alt="" class="w-full transition ease-in-out hover:scale-95 h-full object-cover rounded-lg">
     </span>
     <span class="bg-gray-100 px-3 w-full rounded-lg">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ item.name }}</h5>
@@ -16,7 +16,7 @@
 <script setup>
 import router from '@/router';
 import { ref } from 'vue';
-import en_uz from "../../../json/A1+/StarterUnit/Classroom/en_uz.json";
+import en_uz from "../../../json/A1+/en_uz.json";
 const data=[
     {
         name:"Classroom",
@@ -31,6 +31,11 @@ const data=[
       {
         name:"Numbers – cardinal ",
         path:"/a1+/starter_unit/numbers_cardinal",
+        img:"https://avatars.mds.yandex.net/i?id=0934288e47ff33115c934f446c5b9db149906c80-13620566-images-thumbs&n=13"
+    },
+      {
+        name:"Numbers – ordinal",
+        path:"/a1+/starter_unit/numbers_ordinal",
         img:"https://avatars.mds.yandex.net/i?id=0934288e47ff33115c934f446c5b9db149906c80-13620566-images-thumbs&n=13"
     },
 ];
