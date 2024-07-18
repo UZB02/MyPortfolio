@@ -19,6 +19,11 @@ import { ref } from 'vue';
 import en_uz from "../../../json/A1+/en_uz.json";
 const data=[
     {
+        name:"All Words",
+        path:"/a1+/starter_unit/starter_unit_all_words",
+        img:"https://avatars.mds.yandex.net/i?id=a48bd02edd38b69b43fbd6a2e41e60eb-4865680-images-thumbs&n=13"
+    },
+    {
         name:"Classroom",
         path:"/a1+/starter_unit/classroom",
         img:"https://avatars.mds.yandex.net/i?id=9bb27c302f848b802354b706f788441496f105f7-5383525-images-thumbs&n=13"
@@ -52,6 +57,11 @@ const data=[
         name:"Classroom Expressions and Instructions",
         path:"/a1+/starter_unit/classroom_expressions_and_instructions",
         img:"https://avatars.mds.yandex.net/i?id=877b01866e8fa84d34bee78c50dee37b8bbad869-5232396-images-thumbs&n=13"
+    },
+      {
+        name:"Grammar Words",
+        path:"/a1+/starter_unit/grammar_words",
+        img:"https://avatars.mds.yandex.net/i?id=a614781b54ce106625dc0caf1704e3e94df6f376-12726868-images-thumbs&n=13"
     },
 ];
 </script>

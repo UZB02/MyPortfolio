@@ -20,7 +20,7 @@ import { ref } from 'vue';
 import en_uz from '../../../../json/A1+/en_uz.json';
 import Swal from 'sweetalert2';
 
-const data = ref(en_uz[0].Satart_Unit.description.numbers_cardinal);
+const data = ref(en_uz[0].Satart_Unit.description.starter_unit_all_words);
 
 const answer = ref("");
 const random = ref(0);

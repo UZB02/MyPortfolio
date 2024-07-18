@@ -3,7 +3,7 @@
         <div class="container flex flex-col gap-5">
             <header class="flex items-center justify-between">
                 <div class="container flex items-center flex-wrap justify-center sm:justify-between gap-3">
-                    <h1 class="font-sans font-bold text-3xl">Classroom</h1>
+                    <h1 class="font-sans font-bold text-3xl">Numbers Ordinals</h1>
                     <span class="flex flex-wrap items-center justify-center gap-3">                
 <form class="max-w-md mx-auto">   
     <label for="default-search" class="text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>

@@ -65,6 +65,18 @@ const router = createRouter({
         ),
     },
     {
+      path: "/a1+/starter_unit/grammar_words",
+      name: "A1+ Starter Unit Grammar Words",
+      component: () =>
+        import("../views/A1+/StarterUnit/Grammar_words/Main.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/starter_unit_all_words",
+      name: "A1+ Starter Unit All Words",
+      component: () =>
+        import("../views/A1+/StarterUnit/StartUnitAll_Words/Main.vue"),
+    },
+    {
       path: "/a1+/starter_unit/classroom/test",
       name: "A1+ Starter Unit Classroom Test",
       component: () => import("../views/A1+/StarterUnit/Classroom/test.vue"),
@@ -89,8 +101,7 @@ const router = createRouter({
     {
       path: "/a1+/starter_unit/days/test",
       name: "A1+ Starter Unit days Test",
-      component: () =>
-        import("../views/A1+/StarterUnit/Days/test.vue"),
+      component: () => import("../views/A1+/StarterUnit/Days/test.vue"),
     },
     {
       path: "/a1+/starter_unit/months/test",
@@ -100,7 +111,22 @@ const router = createRouter({
     {
       path: "/a1+/starter_unit/classroom_expressions_and_instructions/test",
       name: "A1+ Starter Unit Classroom Expressions and Instructions Test",
-      component: () => import("../views/A1+/StarterUnit/Classroom_Expressions_and_Instructions/test.vue"),
+      component: () =>
+        import(
+          "../views/A1+/StarterUnit/Classroom_Expressions_and_Instructions/test.vue"
+        ),
+    },
+    {
+      path: "/a1+/starter_unit/grammar_words/test",
+      name: "A1+ Starter Unit Grammar Words Test",
+      component: () =>
+        import("../views/A1+/StarterUnit/Grammar_words/test.vue"),
+    },
+    {
+      path: "/a1+/starter_unit/starter_unit_all_words/test",
+      name: "A1+ Starter Unit All Words Test",
+      component: () =>
+        import("../views/A1+/StarterUnit/StartUnitAll_Words/test.vue"),
     },
   ],
 });

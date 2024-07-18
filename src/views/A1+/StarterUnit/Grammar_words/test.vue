@@ -2,7 +2,7 @@
   <section>
     <div class="container flex flex-col gap-5">
       <span class="h-[150px] sm:h-[50vh] bg-gray-100 rounded-lg flex items-center justify-center">
-        <h1  class="font-sans font-bold text-3xl">{{ currentWord }}</h1>
+        <h1 class="font-sans font-bold text-3xl">{{ currentWord }}</h1>
       </span>
       <span class="flex items-center justify-center sm:flex-row flex-col gap-3">
         <input v-model="answer" @keyup.enter="checkWord" type="text" id="default-search" class="block w-full sm:w-1/2 font-bold p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter word" required />
@@ -20,7 +20,7 @@ import { ref } from 'vue';
 import en_uz from '../../../../json/A1+/en_uz.json';
 import Swal from 'sweetalert2';
 
-const data = ref(en_uz[0].Satart_Unit.description.numbers_cardinal);
+const data = ref(en_uz[0].Satart_Unit.description.grammar_words);
 
 const answer = ref("");
 const random = ref(0);
