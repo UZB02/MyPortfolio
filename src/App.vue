@@ -23,22 +23,7 @@ import { ref } from 'vue';
          name:'Unit 1',
          path: '/a1+/unit1'
       },
-      {
-         name:'Unit 2',
-         path: '/a1+/starter_unit'
-      },
-      {
-         name:'Unit 3',
-         path: '/a1+/starter_unit'
-      },
-      {
-         name:'Unit 4',
-         path: '/a1+/starter_unit'
-      },
-      {
-         name:'Unit 5',
-         path: '/a1+/starter_unit'
-      },
+      
    ]
 </script>
 
