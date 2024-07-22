@@ -77,6 +77,26 @@ const router = createRouter({
         import("../views/A1+/StarterUnit/StartUnitAll_Words/Main.vue"),
     },
     {
+      path: "/a1+/unit1",
+      name: "A1+ Unit 1",
+      component: () => import("../views/A1+/Unit1/Main.vue"),
+    },
+    {
+      path: "/a1+/unit1/countries",
+      name: "A1+ Unit 1 Countries",
+      component: () => import("../views/A1+/Unit1/Countries/Main.vue"),
+    },
+    {
+      path: "/a1+/unit1/nationalities",
+      name: "A1+ Unit 1 Nationalities",
+      component: () => import("../views/A1+/Unit1/Nationalities/Main.vue"),
+    },
+    {
+      path: "/a1+/unit1/thefamily",
+      name: "A1+ Unit 1 The Family",
+      component: () => import("../views/A1+/Unit1/TheFamily/Main.vue"),
+    },
+    {
       path: "/a1+/starter_unit/classroom/test",
       name: "A1+ Starter Unit Classroom Test",
       component: () => import("../views/A1+/StarterUnit/Classroom/test.vue"),
@@ -127,6 +147,21 @@ const router = createRouter({
       name: "A1+ Starter Unit All Words Test",
       component: () =>
         import("../views/A1+/StarterUnit/StartUnitAll_Words/test.vue"),
+    },
+    {
+      path: "/a1+/unit1/countries/test",
+      name: "A1+ Unit 1 Countries Test",
+      component: () => import("../views/A1+/Unit1/Countries/test.vue"),
+    },
+    {
+      path: "/a1+/unit1/nationalities/test",
+      name: "A1+ Unit 1 Nationalities Test",
+      component: () => import("../views/A1+/Unit1/Nationalities/test.vue"),
+    },
+    {
+      path: "/a1+/unit1/thefamily/test",
+      name: "A1+ Unit 1 The Family Test",
+      component: () => import("../views/A1+/Unit1/TheFamily/test.vue"),
     },
   ],
 });

@@ -262,41 +262,47 @@
       "path": "/a1+/starter_unit/classroom",
       "img": "../img/a1+/starter_unit.jpg",
       "description": {
-        "bag": "sumka",
-        "board": "doska",
-        "board rubber": "doska tozalagich",
-        "chair": "o'rindiq",
-        "book": "kitob",
-        "computer": "kompyuter",
-        "desk": "parta",
-        "dictionary": "lug'at",
-        "door": "eshik",
-        "pen": "ruchka",
-        "pencil": "qalam",
-        "poster": "plakat",
-        "ruler": "chizg'ich",
-        "window": "oyna"
-      }
-    },
-    "Unit2": {
-      "name": "Unit 2",
-      "path": "/a1+/starter_unit/classroom",
-      "img": "../img/a1+/starter_unit.jpg",
-      "description": {
-        "bag": "sumka",
-        "board": "doska",
-        "board rubber": "doska tozalagich",
-        "chair": "o'rindiq",
-        "book": "kitob",
-        "computer": "kompyuter",
-        "desk": "parta",
-        "dictionary": "lug'at",
-        "door": "eshik",
-        "pen": "ruchka",
-        "pencil": "qalam",
-        "poster": "plakat",
-        "ruler": "chizg'ich",
-        "window": "oyna"
+        "countries": {
+          "Australia": "Avstraliya",
+          "Brazil": "Brazilia",
+          "China": "Xitoy",
+          "Egypt": "Misr",
+          "Mexico": "Meksika",
+          "Russia": "Rossiya",
+          "Spain": "Ispaniya",
+          "the UK": "Angliya",
+          "the US": "AQSH",
+          "Turkey": "Turkiya"
+        },
+        "nationalities": {
+          "American": "Amerikalik",
+          "Australian": "Avstraliyalik",
+          "Brazilian": "Brazilialik",
+          "British": "Britaniyalik",
+          "Chinese": "Xitoylik",
+          "Egyptian": "Misrlik",
+          "Mexican": "Meksikalik",
+          "Russian": "Rossiyalik",
+          "Spanish": "Ispaniyalik",
+          "Turkish": "Turkiyalik"
+        },
+        "thefamily": {
+          "aunt": "amma, xola",
+          "brother": "aka, uka",
+          "cousin": "jiyan, amakivachcha",
+          "father": "ota",
+          "grandfather": "bobo",
+          "grandmother": "buvi",
+          "grandparents": "bobo-buvi",
+          "husband": "er",
+          "mother": "ona",
+          "nephew": "o'g'il bola jiyan",
+          "niece": "qiz bola jiyan",
+          "parent": "ota-ona",
+          "sister": "singil",
+          "uncle": "amaki, tog'a",
+          "wife": "xotin, rafiqa"
+        }
       }
     }
   }

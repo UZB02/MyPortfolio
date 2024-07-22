@@ -21,7 +21,7 @@ import { ref } from 'vue';
       },
       {
          name:'Unit 1',
-         path: '/a1+/starter_unit'
+         path: '/a1+/unit1'
       },
       {
          name:'Unit 2',
