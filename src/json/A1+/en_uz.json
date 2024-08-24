@@ -58,7 +58,7 @@
           "twenty one": "yigirma bir (21)",
           "thirty": "o'ttiz (30)",
           "forty": "qirq (40)",
-          "fifty": "ellik (50)"      
+          "fifty": "ellik (50)"
         },
         "numbers_ordinal": {
           "first": "birinchi",
@@ -84,19 +84,19 @@
           "twenty-first": "yigirma birinchi",
           "thirtieth": "o'ttizinchi",
           "fortieth": "qirqinchi",
-          "fiftieth": "elliginchi"      
+          "fiftieth": "elliginchi"
         },
         "days": {
-          "monday": "dushanba",     
+          "monday": "dushanba",
           "tuesday": "seshanba",
           "wednesday": "chorshanba",
           "thursday": "payshanba",
           "friday": "juma",
           "saturday": "shanba",
-          "sunday": "yakshanba"     
+          "sunday": "yakshanba"
         },
         "months": {
-          "january": "Yanvar",     
+          "january": "Yanvar",
           "february": "Fevral",
           "march": "Mart",
           "april": "Aprel",
@@ -110,7 +110,7 @@
           "december": "Dekabr"
         },
         "classroom_expressions_and_instructions": {
-          "answer": "javob bermoq",     
+          "answer": "javob bermoq",
           "ask": "savol bermoq, so'ramoq",
           "check": "tekshirmoq",
           "choose": "tanlamoq",
@@ -127,7 +127,7 @@
           "write": "yozmoq"
         },
         "grammar_words": {
-          "adjective": "sifat",     
+          "adjective": "sifat",
           "adverb": "ravish",
           "alternative": "alternativ, muqobil",
           "correct": "to'g'ri, xatosiz",
