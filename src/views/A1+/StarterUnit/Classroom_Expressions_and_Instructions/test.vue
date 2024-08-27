@@ -45,8 +45,8 @@ const checkWord = () => {
   timer: 1500
 });
 answer.value = "";
+generateRandomIndex();
 speakText()
-  generateRandomIndex();
   } else {
     Swal.fire({
   title: 'Error!',
