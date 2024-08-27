@@ -29,6 +29,11 @@ const Keys = Object.keys(data.value);
 const currentKey = ref(Keys[random.value]);
 const currentWord = ref(Values[random.value]);
 
+
+const speakText = () => {
+  const msg = new SpeechSynthesisUtterance(currentKey.value);
+  window.speechSynthesis.speak(msg);
+};
 const checkWord = () => {
   if (answer.value.trim().toLocaleLowerCase() === currentKey.value.toLocaleLowerCase()) {
     console.log('Correct');
@@ -40,6 +45,7 @@ const checkWord = () => {
   timer: 1500
 });
 answer.value = "";
+speakText()
   generateRandomIndex();
   } else {
     Swal.fire({
