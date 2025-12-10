@@ -20,6 +20,11 @@ const router = createRouter({
       },
     },
     {
+      path: "/test/:token",
+      name: "Test Unikal",
+      component: () => import("../views/UnikalTest/UnacalTest.vue")
+    },
+    {
       path: "/a1+",
       name: "A1+",
       component: () => import("../views/A1+/Main.vue"),
